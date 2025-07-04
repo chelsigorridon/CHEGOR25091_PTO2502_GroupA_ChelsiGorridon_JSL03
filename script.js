@@ -53,24 +53,29 @@ if (task1Status !== "done" && task2Status !== "done") {
   console.log("No tasks completed, let's get to work!");
 }
 
-const initialTasks = [
-  {
-    id: 1,
+
+  const initialTasks = [
+  
+   { id: 1,
     title: "Launch Epic Career",
     description: "Create a killer Resume",
     status: "todo",
   },
-  {
-    id: 2,
-    title: "Master JavaScript",
-    description: "Get comfortable with the fundamentals",
-    status: "doing",
-  },
-  {
-    id: 3,
-    title: "Contribute to Open Source Projects",
-    description:
-      "Gain practical experience and collaborate with others in the software development community",
+   
+  
+    { id: 2,
+     title: "Master JavaScript",
+     description: "Get comfortable with the fundamentals",
+     status: "doing",
+    },
+   
+  
+   { id: 3,
+     title: "Contribute to Open Source Projects",
+     description: "Gain practical experience and collaborate with others in the software development community",
     status: "done",
-  },
+    },
+    
 ];
+ console.log(initialTasks)
+ console.log([2])

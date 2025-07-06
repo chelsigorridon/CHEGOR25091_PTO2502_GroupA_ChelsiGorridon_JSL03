@@ -76,6 +76,28 @@ if (task1Status !== "done" && task2Status !== "done") {
     status: "done",
     },
     
+   { id: 4,
+    title: "Launch Epic Career",
+    description: "Create a killer Resume",
+    status: "todo",
+  },
+   
+  
+    { id: 5,
+     title: "Master JavaScript",
+     description: "Get comfortable with the fundamentals",
+     status: "doing",
+    },
+   
+  
+   { id: 6,
+     title: "Contribute to Open Source Projects",
+     description: "Gain practical experience and collaborate with others in the software development community",
+    status: "done",
+    },
+
+
+
 ];
- console.log(initialTasks)
- console.log([2])
+ console.log( initialTasks)
+ console.log(  )

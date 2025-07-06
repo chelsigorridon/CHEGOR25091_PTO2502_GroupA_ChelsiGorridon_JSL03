@@ -54,6 +54,7 @@ if (task1Status !== "done" && task2Status !== "done") {
 }
 
 
+
   const initialTasks = [
   
    { id: 1,
@@ -99,5 +100,8 @@ if (task1Status !== "done" && task2Status !== "done") {
 
 
 ];
- console.log( initialTasks)
- console.log(  )
+ console.log(" All Tasks:", initialTasks)
+ 
+
+ const completedTasksonly = initialTasks.filter (initialTasks => initialTasks.status === "done")
+ console.log("Completed Tasks:",completedTasksonly )

@@ -55,7 +55,7 @@ if (task1Status !== "done" && task2Status !== "done") {
 
 
 
-  const initialTasks = [
+  const initialTasks =  [
   
    { id: 1,
     title: "Launch Epic Career",
@@ -74,7 +74,7 @@ if (task1Status !== "done" && task2Status !== "done") {
    { id: 3,
      title: "Contribute to Open Source Projects",
      description: "Gain practical experience and collaborate with others in the software development community",
-    status: "done",
+     status: "done",
     },
     
    { id: 4,
@@ -97,11 +97,16 @@ if (task1Status !== "done" && task2Status !== "done") {
     status: "done",
     },
 
-
-
 ];
+
  console.log(" All Tasks:", initialTasks)
  
 
  const completedTasksonly = initialTasks.filter (initialTasks => initialTasks.status === "done")
  console.log("Completed Tasks:",completedTasksonly )
+
+ if (
+  initialTasks !== " id: 6," 
+
+) {
+  alert("There are Enough tasks on your board, please check them in the console."); }

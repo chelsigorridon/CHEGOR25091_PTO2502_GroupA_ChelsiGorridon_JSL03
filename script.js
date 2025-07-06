@@ -1,11 +1,11 @@
 
 // Ask the user for the title and description of task 1
-const task1Title = prompt("Enter task 1 title:");
-const task1Description = prompt("Enter task 1 description:");
+const task1Title = prompt("Enter task title:");
+const task1Description = prompt("Enter task description:");
 
 // Ask for the status of task 1 and convert it to lowercase
 let task1Status = prompt(
-  "Enter task 1 status (todo, doing, done):"
+  "Enter task status (todo, doing, done):"
 ).toLowerCase();
 
 // Keep asking until the user enters a valid status for task 1
@@ -53,13 +53,15 @@ if (task1Status !== "done" && task2Status !== "done") {
   console.log("No tasks completed, let's get to work!");
 }
 
-
+   // JSL03 - Assigment 
+  
+  // Array with objects inside
 
   const initialTasks =  [
   
-   { id: 1,
-    title: "Launch Epic Career",
-    description: "Create a killer Resume",
+   { id: 1,                                       // Unique ID to identify each object within array 
+    title: "Launch Epic Career",                   
+    description: "Create a killer Resume",        
     status: "todo",
   },
    
@@ -78,32 +80,37 @@ if (task1Status !== "done" && task2Status !== "done") {
     },
     
    { id: 4,
-    title: "Do extra Courses",
-    description: "Appply on Cousera or Udemy",
-    status: "todo",
+    title: " ",
+    description: " ",
+    status: " ",
   },
    
   
     { id: 5,
-     title: "Complete all Bookconnects",
-     description: " Ensure Bookconnects have been watched on student portal",
-     status: "doing",
+     title: " ",
+     description: " ",
+     status: " ",
     },
    
   
    { id: 6,
-     title: "Go Over Theory for JS",
-     description: "Read through Functions",
-    status: "done",
+     title: " ",
+     description: " ",
+    status: " ",
     },
 
 ];
 
+ // Checking that Array is shown in console log with a title "ALL TASKS"
+
  console.log(" All Tasks:", initialTasks)
  
+ // Filtered all completed tasks and console logged it with a title "COMPLETED TASKS"
 
  const completedTasksonly = initialTasks.filter (initialTasks => initialTasks.status === "done")
  console.log("Completed Tasks:",completedTasksonly )
+
+ // If the amount tasks are not equal to 6 then you will recieve an alert to say you have reached your limit
 
  if (
   initialTasks !== " id: 6," 

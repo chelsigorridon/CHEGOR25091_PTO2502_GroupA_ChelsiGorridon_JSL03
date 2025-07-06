@@ -77,22 +77,22 @@ if (task1Status !== "done" && task2Status !== "done") {
     },
     
    { id: 4,
-    title: "Launch Epic Career",
-    description: "Create a killer Resume",
+    title: "Do extra Courses",
+    description: "Appply on Cousera or Udemy",
     status: "todo",
   },
    
   
     { id: 5,
-     title: "Master JavaScript",
-     description: "Get comfortable with the fundamentals",
+     title: "Complete all Bookconnects",
+     description: " Ensure Bookconnects have been watched on student portal",
      status: "doing",
     },
    
   
    { id: 6,
-     title: "Contribute to Open Source Projects",
-     description: "Gain practical experience and collaborate with others in the software development community",
+     title: "Go Over Theory for JS",
+     description: "Read through Functions",
     status: "done",
     },
 

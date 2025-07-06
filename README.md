@@ -34,15 +34,16 @@
 - Go into the Kanban Website 
 - All the prompts should pop up once the website loads
 - The first prompt should ask you for a title 
-- The second prompt should ask you for a description 
+- The second prompt should ask you for a description  
 - The third prompt should ask you for a status 
 - Enter the title of your first task & click OK it should take you to the next prompt
 - Enter your Description of the task and click OK
 - Enter a status such as (TODO, DOING DONE) and click OK
 - If an invalid status is entered it will give you alert prompt 
 - The Alert prompt should say 'Invalid status. Please enter "TODO, DOING or DONE" 
-- If you have chosen the status "DONE" the task should appear in the console 
-- If you have chosen the status "TODO" or "DOING" a motivational message will pop up in the console 
+- Go to you to your dev tools to check the output messages 
+- Completed tasks should appear in the console as such "Completed Tasks:"
+- All arrays will appear in console log such as "All tasks"
 
 
 ---

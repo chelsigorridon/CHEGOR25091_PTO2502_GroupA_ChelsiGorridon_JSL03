@@ -15,16 +15,17 @@ function addTaskFromPrompt() {
     alert("Invalid status. Please enter 'todo', 'doing', or 'done'.");
     status = prompt("Enter task status (todo, doing, done):").toLowerCase();
   }
-
+ // Makes sure the next ID is the following number 
   const nextId = initialTasks.length > 0
     ? Math.max(...initialTasks.map(t => t.id)) + 1
     : 1;
 
+  //Pushing to objects 
   const newTask = { id: nextId, title, description, status };
   initialTasks.push(newTask);
 }
 
-//
+// Loops the prompts 3 times 
 for (let i = 0; i < 3; i++) {
   addTaskFromPrompt();
 }
@@ -35,9 +36,9 @@ console.log("All Tasks:", initialTasks);
 if (
   initialTasks >= " id: 6," 
 ) {
-  alert("There are Enough tasks on your board, please check them in the console."); }
+  alert("There are Enough tasks on your board, please check them in the console."); } // Creates an alert when there 6 ormore tasks added 
 
-   const completedTasksonly = initialTasks.filter (initialTasks => initialTasks.status === "done")
+   const completedTasksonly = initialTasks.filter (initialTasks => initialTasks.status === "done") // Shows the done tasks 
  console.log("Completed Tasks:",completedTasksonly )
 
 
